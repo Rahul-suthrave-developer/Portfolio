@@ -1,0 +1,34 @@
+html
+{
+    scroll-behavior: smooth;
+}
+h1
+{
+    animation: floatSide_Left 4s ease forwards ;
+}
+@keyframes floatSide_Left {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+}
+.Image
+{
+    animation: floatSide_Right 4s ease forwards ;
+}
+@keyframes floatSide_Right {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+
+    }
+}

@@ -1,0 +1,55 @@
+@media (max-width: 768px) /*Portrait*/
+{
+   body{
+      margin-left: 0px;
+   }
+ hr
+ {
+    width:200px;
+ }   
+ .DP{
+    width: 15rem;
+ }
+ .title
+ {
+    display: none;
+ }
+ .titleDescription
+ {
+    width: 630px;
+ }
+ .Description
+ {
+    width: 650px;
+    margin: 0px;
+ }
+ .center
+ {
+   flex-direction: column;
+   gap:10px;
+ }
+ .Image
+ {
+    margin: 0px;
+    width: 240px;
+ }
+ .cardContainer img
+ {
+    padding-left: 30px;
+ }
+ .aboutCardBody
+ {
+    padding: 0px;
+    padding-left: 10px;
+ }
+ .certificates
+ {
+    flex-direction: column;
+    align-items: center;
+ }
+ .projectCard{
+   margin: 0px;
+   margin-bottom: 20px;
+   margin-left: 10px;
+ }
+}
